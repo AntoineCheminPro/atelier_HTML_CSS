@@ -4,6 +4,10 @@
 }
 nav{
     text-align: center;
+  
+}
+header {
+    
 }
 H1 {
     text-align: center;
@@ -41,17 +45,16 @@ H6 {
 ul {
     list-style-type: none;
 }
-div {
+.disposition {
+    display: flex;
+    width: 100%;
     
 }
+div {
+    width: 70%;
+   
+}
 aside {
-    border:2px;
-    border-color: black;
-    border-style: solid;
-    margin-top: 7%;
-    position: absolute ;
-    top: 50px;
-    left: 1500px;
-    width: 300px;
-    height: 400px;
+    width: 30%;
+    
 }
