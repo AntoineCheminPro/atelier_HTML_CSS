@@ -1,0 +1,15 @@
+form input {
+    display: block;
+}
+
+form input[type="radio"] {
+    display: inline;
+}
+
+.formgroup {
+    margin: 20px 0;
+}
+
+#movie:valid {
+    border: 5px solid green;
+}

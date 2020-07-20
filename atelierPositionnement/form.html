@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier formulaire</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="" method="POST">
+        <div class="formgroup">  
+            <label for="movie">Le titre du film à chercher :</label>
+            <input type="text" name="movie" id="movie" placeholder="votre film" maxlength="10" required>
+        </div>
+        <div class="formgroup">  
+            <label for="movie">L'année du film :</label>
+            <input type="number" name="year" id="year" placeholder="année film" min="1898" max="2020" required>
+        </div>
+        <div class="formgroup">  
+            <label for="movie">version originale </label>
+            <input type="radio" name="version" id="VO" required>
+            <label for="movie">version française </label>
+            <input type="radio" name="version" id="VF" required>
+        </div>
+        <input type="submit" value="rechercher">
+
+    </form>
+    
+</body>
+</html>
